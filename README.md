@@ -1,5 +1,7 @@
 # pi-subagents-lean
 
+属于 [pi-kit](https://github.com/MinarKotonoha/pi-kit) 的一部分：一次装齐四个扩展和四份配置模板，并且从零验证过。只想要这一个扩展时，按下面的步骤单独装。
+
 延迟暴露（deferred）的子代理工具组：**默认零 token 占用**，用 `tool_search` 搜到才会进请求。
 
 零占用是它和 `@thoth-agents/pi-subagents` 的唯一设计差异：那个包用 `exposure: "model-only"` 注册，
