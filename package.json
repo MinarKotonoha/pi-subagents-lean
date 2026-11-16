@@ -1,0 +1,37 @@
+{
+  "name": "@minar-kotonoha/pi-subagents-lean",
+  "version": "0.1.0",
+  "description": "Deferred subagent tools for pi: markdown-defined agents, background runs, history — zero prompt cost until tool_search loads them.",
+  "keywords": [
+    "pi",
+    "pi-extension",
+    "subagent",
+    "agents",
+    "delegation"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "pi": {
+    "extensions": [
+      "./extensions/pi-subagents/index.js"
+    ]
+  },
+  "files": [
+    "extensions",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
